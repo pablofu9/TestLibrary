@@ -1,0 +1,15 @@
+{
+  "originHash" : "07eadb8dc801eafaaca3808ff365afa0e3bb86dbb100171009086ff4e17ce93b",
+  "pins" : [
+    {
+      "identity" : "apirestdi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pablofu9/APIRestDI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b2c1e0a89ad81dca5b61a0ed29698be9df5774be"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D8421B5D2DE5A4140051D162 /* APIRestDI in Frameworks */ = {isa = PBXBuildFile; productRef = D8421B5C2DE5A4140051D162 /* APIRestDI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D8421B4D2DE5A3D40051D162 /* TestLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8421B5D2DE5A4140051D162 /* APIRestDI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = TestLibrary;
 			packageProductDependencies = (
+				D8421B5C2DE5A4140051D162 /* APIRestDI */,
 			);
 			productName = TestLibrary;
 			productReference = D8421B4D2DE5A3D40051D162 /* TestLibrary.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = D8421B442DE5A3D40051D162;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D8421B5B2DE5A4140051D162 /* XCRemoteSwiftPackageReference "APIRestDI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D8421B4E2DE5A3D40051D162 /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8421B5B2DE5A4140051D162 /* XCRemoteSwiftPackageReference "APIRestDI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pablofu9/APIRestDI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8421B5C2DE5A4140051D162 /* APIRestDI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8421B5B2DE5A4140051D162 /* XCRemoteSwiftPackageReference "APIRestDI" */;
+			productName = APIRestDI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D8421B452DE5A3D40051D162 /* Project object */;
 }

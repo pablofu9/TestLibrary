@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Que-es-un-mockup-ines-birdcom-para-que-sirve-un-mockup-1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Que-es-un-mockup-ines-birdcom-para-que-sirve-un-mockup-1 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Que-es-un-mockup-ines-birdcom-para-que-sirve-un-mockup-1 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
